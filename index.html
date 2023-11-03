@@ -499,13 +499,61 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
-      <div class="modal">
+    <div class="backdrop is-open"> 
+       <div class="modal">
         <button class="modal-close-button" type="button" aria-label="modal close button">
-          <svg class="modal-close-icon-button" width="24" height="24">
+          <svg width="8" height="8" class="modal-close-icon-button">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="text">Leave your contacts and we will call you back</p>
+        <form class="form">
+        <div class="form-wrapper">
+          <label class="form-label">
+            
+            <span class="form-text">Name</span>
+            <div class="form-icon-input-wrapper">
+              <svg class="form-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-name"></use>
+            </svg>
+            <input class="form-input" type="text" name="user_name" required>
+            </div>
+            
+          </label>
+
+          <label class="form-label">
+            <span class="form-text">Phone</span>
+            <div class="form-icon-input-wrapper">
+              <svg class="form-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+            <input class="form-input" type="tel" name="user_phone" required>
+            </div>
+            
+          </label>
+          <label class="form-label">
+            <span class="form-text">Email</span>
+            <div class="form-icon-input-wrapper"><svg class="form-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+            <input class="form-input" type="Email" name="user_email" required></div>
+            
+          </label>
+          <label class="form-label">
+            <span class="form-text">Comment</span>
+            <textarea name="Comment" rows="10" placeholder="Text input"></textarea>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="rewiev-form-checkbox">
+            <span class="checkbox-text">I accept the terms and conditions of the </span><a class="privacy-policy-link" href="">Privacy Policy</a>
+
+          </label>
+
+          <button class="form-button" type="submit">Send</button>
+          
+        </div>
+      </form>
       </div>
+      
   </body>
 </html>
