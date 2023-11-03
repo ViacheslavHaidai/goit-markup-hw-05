@@ -658,3 +658,20 @@ textarea {
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.40);
 }
+.form-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 24px auto;
+}
+.form-button {
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.64px;
+}
