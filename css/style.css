@@ -672,6 +672,60 @@ textarea {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.64px;
+}
+.subscripe-section .title {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+}
+.subscripe-section {
+    margin-left: 80px;
+}
+.subscripe-input {
+    width: 264px;
+    height: 40px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.48px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 8px 16px 8px 16px;
+}
+.subscripe-section-button {
+    position: relative;
+    margin-left: 24px;
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-right: 64px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    border: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+   
+}
+.subscripe-section-form {
+    display: flex;
+}
+.subscripe-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+
 }
