@@ -687,10 +687,7 @@ textarea {
     padding: 8px 16px;
     margin-bottom: 16px;
 }
-.checkbox {
- 
 
-}
 
 .checkbox-text {
     color: #8E8F99;
@@ -726,11 +723,7 @@ textarea {
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.40);
 }
-.form-button-wrapper {
-    
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
+
 .form-button {
     padding: 16px 32px 16px 32px;
     border-radius: 4px;
@@ -742,4 +735,10 @@ textarea {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    margin-top: 24px;
+    min-width: 169px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
