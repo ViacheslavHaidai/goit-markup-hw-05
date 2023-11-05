@@ -663,15 +663,13 @@ button {
 }
 .form-label {
     margin-bottom: 4px;
-}
-.form-text {
-    color: #8E8F99;
-    font-family: Roboto;
     font-size: 12px;
-    font-weight: 400;
     line-height: 1.17;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
 }
+
 
 textarea {
     resize: none;
