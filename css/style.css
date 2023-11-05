@@ -660,7 +660,6 @@ button {
 .form {
     display: flex;
     flex-direction: column;
-    gap: 26px;
 }
 .form-label {
     margin-bottom: 4px;
@@ -699,6 +698,7 @@ textarea {
 .label-review-wrapper {
     margin-bottom: 8px;
 }
+
 .form-icon-input-wrapper {
     position: relative;
     width: 100%;
